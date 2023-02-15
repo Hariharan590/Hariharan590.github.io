@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_960_720.jpg");
+  background-repeat:no-repeat ;
+  background-position: center;
+  
+  background-size: cover;
+}
+*{
+  margin:0;
+  box-sizing: border-box;
+  font-family: poppins,sans-serif;
+  text-align: center;
+  
+  
+
+
+}
+
+.container{
+  background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  padding: 50px;
+  border-radius:10px;
+  margin:100px 500px;
+}
+#heading{
+  color:rgb(0, 0, 0);
+}
+
+input[type="text"]{
+  margin-top: 8px;
+  height:3rem;
+  width:280px;
+  border-radius: 10px;
+  border:2px solid whitesmoke;
+  outline:none;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+input:focus{
+  background-color: #fff;
+  color:#495057;
+  border-color: #ffaf80;
+  outline:0;
+  box-shadow:0 0 0 0.2rem rgb(0,123,255,25%);
+
+}
+input[type="button"]{
+  background-color: #0f0f0e;
+  height:3.2rem;
+  width:200px;
+  color:whitesmoke;
+  font: size 1.1em;
+  outline: none
+  border-radius 8px;
+  font-weight:600;
+  border:none;
+  cursor:pointer;
+
+}
+.result{
+  color:#e7e7d9
+}
