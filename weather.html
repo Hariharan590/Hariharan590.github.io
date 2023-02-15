@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="weather.css">
     <script src="weather.js"></script>
 </head>
+
 <body>
     <div class="container">
         <div>
             <h1 id="heading">Weather Manager</h1>
             <br>
-            <input type="text" name="" placeholder="Search city"  id="city-input">
+            <input type="text" name="text" placeholder="Search city" id="city-input">
             <br>
             <input type="button" onclick="searchCity()" value="Search">
         </div>
@@ -23,13 +25,14 @@
                 <h2 id="weather-type">-------</h2>
             </div>
             <div>
-                <h3>Temp : <span id="temp"></span><span>°F</span></h3>
-                <h3>Min Temp : <spam id="min-temp"></spam>°F</h3>
-                <h3>Max Temp : <spam id="max-temp"></spam>°F</h3>
+                <h3>Temp : <span id="temp"></span><span>°C</span></h3>
+                <h3>Humidity : <spam id="min-temp">0 </spam></h3>
+                <h3>Wind speed : <spam id="wind-speed">0 </spam>Kph</h3>
             </div>
         </div>
 
     </div>
-    
+
 </body>
+
 </html>
